@@ -1,0 +1,13 @@
+{
+  "name": "lumberjack",
+  "version": "1.0.0",
+  "description": "Node, docker react slingshot",
+  "main": "index.js",
+  "repository": "https://github.com/chicocode/lumberjack.git",
+  "author": "chicocode <eu@chicocode.io>, guiportooo <guiportooo@gmail.com>, rccorreia <rdcc89@gmail.com>, renanrodcosta <renanrodcosta@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
