@@ -1,8 +1,10 @@
 FROM node:alpine
 
-COPY ./index.js /
+COPY ./yarn.lock /
 COPY ./package.json /
 
 RUN yarn install
 
-CMD node ./index.js
+COPY ./src /src
+
+CMD node ./src/index.js
