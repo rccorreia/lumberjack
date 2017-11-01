@@ -7,4 +7,4 @@ RUN yarn install
 
 COPY ./src /src
 
-CMD node ./src/index.js
+CMD ["./node_modules/nodemon/bin/nodemon.js", "-L", "-w", "/src", "./src/index.js"]
